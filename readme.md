@@ -34,3 +34,22 @@ Forma un clúster de bases de datos compuesto por dos servidores.
 Además, se establece la restricción de conexión para cada máquina, limitando el acceso a su propia red. 
 La excepción es el balanceador de carga de la Capa 1, que tiene acceso a Internet, 
 probablemente para gestionar las solicitudes externas.
+
+# Infraestructura
+IP de cada máquina:
+
+*Balanceador*
+  * RED1: NAT
+  * RED2:10.0.0.10
+*Servidor 1 web*
+  * RED1:10.0.0.11
+  * RED2: 172.24.0.11
+*Servidor 2 web*
+  *RED1:10.0.0.12
+  *RED2:172.24.0.12
+*Servidor NFS-PHP*
+  * RED1:172.24.0.10
+*BBDD*
+  *RED1:172.24.0.20
+  *RED2:192.168.10.20
+
