@@ -52,9 +52,9 @@ IP de cada máquina:
 
 *Servidor 2 web
 
-  *RED1:10.0.0.12
+  * RED1:10.0.0.12
  
-  *RED2:172.24.0.12
+  * RED2:172.24.0.12
   
 *Servidor NFS-PHP
 
