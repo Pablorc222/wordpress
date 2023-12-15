@@ -63,5 +63,6 @@ IP de cada máquina:
 *BBDD
 
   *RED1:172.24.0.20
+  
   *RED2:192.168.10.20
 
