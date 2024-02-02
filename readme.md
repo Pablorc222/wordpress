@@ -3,14 +3,13 @@
 # Índice.
 
 1. [Introducción.](#introducción)
-2. [Infraestructura.](#infraestructura)
-3. [Provisionamiento de las máquinas.](provisionamiento_de_las_máquinas) 
+2. [Provisionamiento de las máquinas.](provisionamiento_de_las_máquinas) 
     * [Balanceador.](#balanceador)
     * [Servidor web 1.](#servidor-web-1)
     * [Servidor web 2.](#servidor-web-2)
     * [Servidor NFS y motor PHP.](#servidor-nfs-y-motor-php)
     * [Balanceador BBDD.](#balanceador-bbdd)
-4. [Screencash](#screencash)
+3. [Screencash](#screencash)
 
 # Introducción
 
